@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 463.005,
+    "vectorized_ms": 1.059,
+    "speedup": 437.21
+  },
+  "threads": {
+    "1": 2042.461,
+    "2": 2738.893,
+    "4": 2021.159,
+    "8": 2312.847
+  },
+  "devices": {
+    "cpu_ms": 426246.8,
+    "gpu_ms": 16779.1
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4166,
+    "param_count": 4935680
+  },
+  "sample": "\nWAR them ever see; percy we would royalt!\n\nGREEK:\nNay, have in whethin charity, Or I prove the That?\n\nNurse: away not the king make their makes e'er dea\nThe brook Licenio, shall wades I couchaintand b",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecom-lab-512621-eurecomgpt/model.safetensors"
+  }
+}
